@@ -1,0 +1,13 @@
+#include<stdio.h>
+#define long long ll
+#include<stdlib.h>
+
+int main(){
+	int a=5;
+	float value=6.43;
+	while(a!=10){
+		a=(a+value)-value/2;
+
+	}
+	return 0;
+}
